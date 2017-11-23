@@ -1,0 +1,99 @@
+/* ### 版面設計 ###*/
+
+body{
+	margin: 24px 10px;
+	font-family: Arial, '標楷體', sans-serif;
+}
+
+
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+
+#headerpost {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#content {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+footer {
+	margin-bottom: 30px;
+}
+
+
+
+/* ### 細節設計 ###*/
+
+
+/* HEADER LOGO */
+
+#banner {
+	float: left;
+}
+
+#banner h1 {
+	margin: 0;
+}
+
+
+
+/* vertical-align: bottom 對齊底部，比較好看 */
+
+
+/* container設960，三分法原則，site img 設300-360都蠻好看的 */
+
+
+#banner img {
+    vertical-align: bottom;
+    width: 332px;
+}
+
+
+/* HEADER NAV */
+
+
+/* 可用google font 尋找喜歡的瀏覽器字體 https://fonts.google.com/ */
+
+
+/* padding和margin差異可看講義*/
+
+
+nav {
+	float: right;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+}
+                                       
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* list-style-type: none 可把原本有序列表的點點取消*/
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
